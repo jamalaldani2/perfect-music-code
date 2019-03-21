@@ -704,3 +704,4 @@ function isYoutube(str) {
 //     return a, b;
 // }
 ////////////////
+client.login(process.env.BOT_TOKEN);
