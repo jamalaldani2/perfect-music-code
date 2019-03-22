@@ -1,5 +1,5 @@
 const ytdl = require("ytdl-core");
-const client = require('discord.js');
+const client = new Discord.Client();
 const getYoutubeID = require('get-youtube-id');
 const fetchVideoInfo = require('youtube-info');
 const YouTube = require('simple-youtube-api');
