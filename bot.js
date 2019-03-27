@@ -10,7 +10,8 @@ const queue = new Map();
 const prefix = `$`
 const devs = ["545645820054208513","530062292969062412"]
  
- 
+console.log(`bot online`);
+
 client.on('message', async msg => {
   if (msg.author.bot) return undefined;
   if (!msg.content.startsWith(prefix)) return undefined;
