@@ -9,7 +9,7 @@ const youtube = new YouTube("AIzaSyAdORXg7UZUo7sePv97JyoDqtQVi3Ll0b8");
 const queue = new Map();
 const prefix = `$`
 const devs = ["545645820054208513","530062292969062412"]
- 
+const ms = require("ms")
 console.log(`bot online`);
 
 client.on('message', async msg => {
