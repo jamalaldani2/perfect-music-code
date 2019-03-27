@@ -384,7 +384,7 @@ client.on('message', message => {
 		};
 
 
-
+});
 
 
 
